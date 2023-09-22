@@ -1,0 +1,73 @@
+body {
+    background-image: url("./img/neige.jpg");
+    background-repeat: repeat;
+    font-family: monospace "arial Narrow" sans-serif;
+}
+
+.wrapper {
+    background-color: pink;
+    width: 800px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    border: 5px solid deeppink;
+}
+
+.header h1 {
+    text-align: center;
+    font-size: 30px;
+    color: hotpink;
+    text-decoration: underline;
+}
+
+.header .desc {
+    text-align: center;
+    color: darkblue;
+}
+
+.header p:not(.desc) {
+    font-style: italic;
+    text-align: justify;
+}
+
+.city {
+    padding: 10px;
+    background-color: floralwhite;
+    margin-bottom: 10px;
+    border: 1px solid hotpink;
+}
+
+.city-img, .city-text {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.city-img {
+    width: 220px;
+    /* background-color: red; */
+    padding: 5px;
+}
+
+.city-img img {
+    width: 90%;
+}
+
+.city-text h1 {
+    font-size: 25px;
+    color: darkblue;
+}
+
+.city-text h2 {
+    font-size: 120%;
+}
+
+.city-text p {
+    color: gray;
+    text-align: justify;
+}
+
+.footer {
+    margin: 20px;
+    color: green;
+    font-size: 15px;
+    text-align: center;
+}

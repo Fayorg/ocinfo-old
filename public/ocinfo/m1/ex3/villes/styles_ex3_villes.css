@@ -1,0 +1,7 @@
+body div {
+    position: absolute;
+}
+
+p:not(.retour-non-vers-le-futur) {
+    text-transform: uppercase;
+}
