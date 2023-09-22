@@ -55,4 +55,4 @@ jobs:
           server: efps.ftp.infomaniak.com
           username: efps_e11
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./out
+          local-dir: ./out/
