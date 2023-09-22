@@ -53,7 +53,7 @@ jobs:
         uses: actionsx/prettier@v2
         with:
           # prettier CLI arguments.
-          args: --write .out/**/*.{js,md,html,css,ts,jsx,tsx} .
+          args: --write **/*.{js,md,html,css,ts,jsx,tsx} .out/
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
