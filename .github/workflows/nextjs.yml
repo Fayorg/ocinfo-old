@@ -56,3 +56,4 @@ jobs:
           username: efps_e11
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
+          dangerous-clean-slate: true
